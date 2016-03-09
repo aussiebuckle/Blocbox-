@@ -41,6 +41,8 @@ p {
     position:relative;
     min-height: 1px;
     margin:0 2% 20px;
+    
+/* Media*/    
 }
 @media (min-width: 768px) {
    .container {
@@ -65,6 +67,13 @@ p {
    .container {
      width: 1170px;
    }
+}
+@media tv {
+    h1 {
+        color: coral;
+        font-size: 75px;
+        font-weight: 200; 
+    }
 }
 
 /*HEADER */
