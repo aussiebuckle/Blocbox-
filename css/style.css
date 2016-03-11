@@ -68,11 +68,14 @@ p {
      width: 1170px;
    }
 }
-@media tv {
+@media (min-width: 1824px) {
     h1 {
-        color: coral;
         font-size: 75px;
-        font-weight: 200; 
+        font-weight: 100; 
+    }
+    header p {
+        font-size: 28px;
+        font-weight: normal;
     }
 }
 
@@ -361,4 +364,3 @@ footer .logo {
      padding: 2em 0 2em 1.5em;
    }
  }
-    
