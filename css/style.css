@@ -78,6 +78,24 @@ p {
         font-weight: normal;
     }
 }
+@media (max-width: 992px){
+    header .sign_in_up {
+        position: absolute;
+        right: 2px
+    }
+    header img.laptop{
+        width: 75%;
+        height: auto;
+    } 
+    footer .link-block {
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .right-footer-block .logo {
+        margin-top: -20px;
+    }
+}
 
 /*HEADER */
 header {
