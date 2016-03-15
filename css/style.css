@@ -528,6 +528,16 @@ footer .logo {
     margin-right: 10px;
     margin-top: 8px;
 }
+/* dropdown menu */
+.settings-btn {
+  margin-top:0px!important;
+}
+
+.dropit-inverse .dropit-submenu li a {
+  text-align: left;
+  font-size:12px;
+  float:none;
+}
 
 /* CONTENT */
 .content {
@@ -599,7 +609,6 @@ footer .logo {
    line-height: 18px;
    margin:5px 0 0;
  }
-
 
 /* Larger Mobile Devices */
  @media (min-width:460px) {
